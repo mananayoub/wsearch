@@ -1,0 +1,6 @@
+<div class="box">
+    <h1 class="title">Wikipedia Search</h1>
+    <form (submit)="onFormSubmit($event)">
+        <input placeholder="Enter Search Term" class="input" (input)="onInput($any($event.target).value)">
+    </form>
+</div>  
